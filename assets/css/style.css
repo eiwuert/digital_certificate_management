@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: "Roboto", Open-Sans;
+  background: #fff;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
+  vertical-align: middle;
+  width: 100%;
+}
+
+#login_area {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#login_area table {
+  /*position: absolute;*/
+  margin: 0 auto;
+}
+
+#login_area table td {
+  padding: 10px;
+}
+
+#login_area input {
+  padding: 10px;
+  width: 300px;
+  border: solid 1px #ccc;
+}
+
+#login_area input:focus {
+  outline: none;
+  border: solid 1px #333333;
+  transition: all 0.5s ease-out;
+}
+
+#login_area .btn {
+  width: 100%;
+  background: #d04141;
+  color: #fff;
+  border: solid 1px #d04141;
+}
+
+.100space {
+  width: 100%;
+}
+
+#main_nav {
+  border: solid 1px #514747;
+  float: left;
+  position: absolute;
+  min-height: 100% !important;
+  background: #514747;
+  width: 20%;
+  color: #fff;
+}
+
+#main_nav li {
+  list-style: none;
+  width: 100%;
+}
+
+#main_nav a {
+  text-decoration: none;
+  color: #ccc;
+  width: 100%;
+  padding: 10px;
+  float: left;
+}
+
+#main_nav a:hover {
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+#content {
+  float: right;
+  width: 78%;
+  margin: 20px 0px 0px 0px;;
+}
+
+#client table {
+  border: solid 1px #ccc;
+  cellspacing: 0;
+  border-collapse: collapse;
+  width: 97%;
+  margin-top: 10px;
+}
+
+#client table td {
+  padding: 10px;
+}
+
+#client table th {
+  background: #514747;
+  color: #fff;
+  border: solid 1px #514747;
+  padding: 10px;
+}
+
+.head {
+  border-bottom: solid 1px #ccc;
+  padding-bottom: 10px;
+  width: 97%;
+}
+
+.head a {
+  text-decoration: none;
+}
+
+#dc_d {
+  background: #eee;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#dc_d table {
+  width: 70%;
+  margin: 0 auto;
+  border: solid 1px #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#dc_d table th {
+  text-align: right;
+  padding: 10px;
+  width: 35%;
+  font-weight: bold;
+}
+
+#dc_d table td {
+  padding: 10px;
+  width: 50%;
+  text-align: left;
+  padding-lef: 5px;
+}
+
+.custom_fa_icon {
+  color: #b6b6b6;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.custom_fa_icon:hover {
+  color: #333333;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.t-center {
+  text-align: center;
+}
+
+#client .button {
+  padding: 10px 15px;
+  background: #d04141;
+  color: #fff;
+  text-decoration: none;
+  border: solid 1px #d04141;
+  outline: none;
+}
+
+#client .button:hover {
+  transition: all 0.3s ease;
+  background: #a31919;
+  border: solid 1px #a31919;
+}
+
+#client input {
+  outline: none;
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+#client input:focus {
+  border: solid 1px #333333;
+  transition: all 0.3s ease;
+}
+
+#add_c_modal table {
+  width: 100%;
+}
+
+#add_c_modal input {
+  border: solid 1px #ccc;
+  outline: none;
+  padding:8px;
+}
+
+#add_c_modal td {
+  padding-bottom: 10px;
+}
+
+#add_c_modal input:focus {
+  border: solid 1px #333333;
+  transition: all 0.3s ease;
+}
+
+#add_c_modal textarea {
+  outline: none;
+  padding:10px;
+}
+
+#add_c_modal textarea:focus {
+  transition: all 0.3s ease;
+  border: solid 1px #333333;
+}
+
+.btn_custom {
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: none;
+  border: solid 1px #d04141;
+  background: #d04141;
+}
+
+.btn_custom:hover {
+  background: #a31919;
+  border: solid 1px #a31919;
+  transition: all 0.3s ease;
+}
+
+.sukses_i {
+  background: #68f09a;
+  padding: 10px;
+  color: #fff;
+  width: 97%;
+}
+
+.error_i {
+  background: #f44b4b;
+  padding: 10px;
+  color: #fff;
+  width: 97%;
+}
+
+#paging {
+  margin-top: 20px;
+}
+
+#paging span {
+  padding: 10px;
+  border: solid 1px #ccc;
+  margin: 0px 1px;
+}
+
+#paging span a {
+  padding: 10px 0px;
+}
+
+#paging span.cur {
+  background: #333333;
+  color: #333333;
+  color: #fff;
+}
+
+#client_e {
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#client_e table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#client_e table td {
+  border: solid 1px #ccc;
+  padding: 10px;
+}
+
+#client_e input {
+  border: solid 1px #ccc;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+
+#client_e input:focus {
+  border: solid 1px #333333;
+  transition: all 0.3s ease;
+}
+
+#client_e td {
+  width: 20%;
+}
+
+#client_e textarea {
+  border: solid 1px #ccc;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+
+#client_e textarea:focus {
+  border: solid 1px #333333;
+  transition: all 0.3s ease;
+}
+
+#client_e .btn {
+  background: #d04141;
+  border: solid 1px #d04141;
+  border-radius: none;
+  color: #fff;
+  width: 45%;
+  padding: 5px;
+}
+
+#client_e .btn:hover {
+  transition: all 0.3s ease;
+  background: #a31919;
+}
+
+#add_c_modal select {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  outline: none;
+  border: solid 1px #ccc;
+}
+
+#add_c_modal select:focus {
+  border: solid 1px #333333;
+  transition: all 0.3s ease;
+}
+
+#client_e select {
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  outline: none;
+  border: solid 1px #ccc;
+}
+
+#client_e select:focus {
+  border: solid 1px #333333;
+  transition: all 0.3s ease;
+}
